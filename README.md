@@ -1,2 +1,4 @@
-# minimon.no
-Yet another Jekyll site (I'm bored)
+minimon.no
+==========
+
+A site with logos from my "company" Minimon.

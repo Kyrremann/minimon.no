@@ -1,0 +1,49 @@
+/**
+ * Site header
+ */
+.wrapper .container {
+    max-width: 80rem;
+}
+
+/**
+ * Post
+ */
+.post-list {
+    list-style: none;
+}
+
+.post-list li {
+    list-style-type: none;
+}
+
+.post-list li+li {
+    padding-top: 2rem;
+    border-top: 1px solid $grey-color-light;
+}
+
+.post-list h4 {
+    margin-bottom: 0rem;
+}
+
+.post-list {
+    color: $text-meta;
+}
+
+/**
+ * override column size for mobile
+ */
+@media (max-width: 40.0rem) {
+    .row .column.column-33, .row .column.column-34 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
